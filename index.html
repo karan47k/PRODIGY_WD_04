@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title> Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/257626620d.js" crossorigin="anonymous"></script>
+        </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo">Portfolio</h1>
+     
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Engineer</p>
+            <h1>Hello, I'm<span> KARAN PATILE</span><br> </h1>
+
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="myimg.png">           
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>I am Karan Patile, a Bachelor of Engineering student specializing in Electronics. Passionate about technology and innovation, 
+                   I have successfully completed two projects: H-Bridge DC Motor Control and Driving License Detection. Currently, 
+                   I am gaining industry experience through an internship at Prodigy Infotech, where I am honing my technical and problem-solving skills.
+                   With a strong foundation in Java and Embedded C, I am particularly interested in embedded systems and automation.
+                   Beyond academics, I have demonstrated my dedication and discipline by competing at the national level in Ball Badminton. 
+                   My ability to balance technical expertise with teamwork and perseverance makes me eager to contribute to impactful projects in the field of electronics and software development.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links onclick="opentab('internship')">Internships</p>
+                    <p class="tab-links onclick="opentab('interest')">Interest</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Java,Embedded C , C</li>
+                        <li><span>Internships</span><br>Pursuing in Prodigy Infotech</li>
+                        <li><span>Rate of Interest</span><br>Web Development,Vlsi,Embedded Systems</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Completed certificates of Programming Languages</li>
+                        <li><span>2024-2025</span><br>Build personal portfolio website   </li>
+                        <li><span>2023-2024</span><br>Completed project on IOT Based driving license detector system</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="interest">
+                    <ul>
+                        <li><span>2021-2022</span><br>Completed 12th science with 1st class distinction</li>
+                        <li><span>2022-2023</span><br>Got Admission in BE in EnTC </li>
+                        <li><span>2025-2026</span><br>Graduation will be completed</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title"> My Skills</h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>As I have been pursuing web development internship , i have a good knowledge of web development .</p>
+                <a href="#">Learn more</a>
+           </div>
+           <div>
+            <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>App Development</h2>
+            <p>
+                I have experience in application development, focusing on building efficient and user-centric applications using Java and Embedded C. 
+                I am skilled in developing software solutions that integrate seamlessly with hardware, ensuring optimal performance and functionality</p>
+                <a href="#">Learn more</a>
+           </div>
+           <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Web Designing</h2>
+            <p>I have a foundational understanding of web design, including HTML, CSS, and JavaScript, enabling me to create responsive and user-friendly interfaces. 
+            I am keen on designing visually appealing and functional websites that enhance user experience..</p>
+                <a href="#">Learn more</a>
+           </div> 
+        </div>
+    </div>
+</div>
+</div>
+<div id="Work">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="iot.jpg">       
+                <div class="layer">
+                    <h3>Projects</h3>
+                    <p>In 2nd year of engineering i have completed the IOT based project like Driving license detector </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="prinfo 2.png">                
+                <div class="layer">                                      
+                    <h3>Internships</h3>
+                    <p>Currently Pursuing the internship in ProdigyInfotech</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pexels-photo-1972464.jpeg">       
+                <div class="layer">
+                    <h3>Work Experience</h3>
+                    <p>No any Experience</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="a" class="btn"> See More</a>
+    </div>
+</div>
+
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contacts </h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> 12karanpatile34@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8485883304</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/karan_xlviik?igsh=bjB5MWtpMWx3b3Q4&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/karan-patile-726817259/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="cv.png" download class="btn btn2">Download CV</a>            <!----------photo of cv   -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>© 2024 Karan Patile. All rights reserved. Unauthorized use or reproduction is prohibited.<i class=""></i></p>
+</div>
+</div>
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxMc1JDwYP5d_Z5kw70Gnp1yANuxXf7tB4N46tuzje05zE4rbvBeU28CZ2mKXxQpXl3WA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message Sent Successfully"
+            setTimeout(function() {
+                msg.innerHTML=" "
+                
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
